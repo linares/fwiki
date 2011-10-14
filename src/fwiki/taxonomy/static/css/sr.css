@@ -1,0 +1,56 @@
+.highlight { font-weight: bold; }
+
+.sr { padding: 14px 0 14px 0; border-bottom: 1px solid #EEEEEE; }
+
+.sr .name { font-weight: bold; font-size: 11px;  }
+.sr .name a {color: #3B5998; text-decoration: none; }
+.sr .name a:hover {text-decoration: underline; }
+.sr .text { color: #000000; font-size: 11px; padding-top: 2px;}
+.sr .time {color: #999999; font-size: 11px; padding-top: 9px; }
+
+.sr_status .left {float: left; width: 62px; text-align: right;  padding-right: 10px; }
+.sr_status .right { float: left; width: 400px;}
+
+.sr_targetedstatus .left {float: left; width: 62px; padding-right: 10px;}
+.sr_targetedstatus .right { float: left; width: 400px;}
+.sr_targetedstatus .profileimgs {position: relative; height: 66px }
+.sr_targetedstatus .profileimg1 { position: absolute; top: 32px; left: 0px; z-index: 100; border: 1px solid #fff; }
+.sr_targetedstatus .profileimg1 img { width: 24px; height: 24px; }
+.sr_targetedstatus .profileimg2 { position: absolute; top: 0px; left: 10px;  }
+
+
+.sr_link .left {float: left; width: 62px; text-align: right; padding-right: 10px; }
+.sr_link .right { float: left; width: 400px;}
+
+.sr_link .linkcontent { padding-top: 5px; }
+.sr_link .linkcontent_left { float: left; width: 90px; padding-right: 10px; }
+.sr_link .linkcontent_left img { border: 0; }
+.sr_link .linkcontent_right { float: left; width: 340px; }
+.sr_link .linkcontent_name { font-weight: bold; font-size: 11px; }
+.sr_link .linkcontent_name a { color: #3B5998; text-decoration: none; }
+.sr_link .linkcontent_name a:hover { text-decoration: underline; }
+.sr_link .linkcontent_caption { font-size: 11px; color: #808080; }
+.sr_link .linkcontent_description { font-size: 11px; color: #808080; padding-top: 8px; }
+
+
+.sr_comments { width: 400px; margin-top: 8px;}
+.sr_comments .sr_comment { background-color:#EDEFF4; border-bottom:1px solid #E5EAF1; margin-top: 2px; padding: 5px 5px 4px; }
+.sr_comments .sr_comment .left { float: left; width: 36px; }
+.sr_comments .sr_comment .left img { width: 32px; height: 32px; }
+.sr_comments .sr_comment .right { float: left; width: 340px; }
+.sr_comments .sr_comment .text .name { font-weight: bold; font-size: 11px;  }
+.sr_comments .sr_comment .text .name a {color: #3B5998; text-decoration: none; }
+.sr_comments .sr_comment .text .name a:hover {text-decoration: underline; }
+.sr_comments .sr_comment .text { color: #000000; font-size: 11px; padding-top: 2px; }
+.sr_comments .sr_comment .time { color: #999999; font-size: 11px; padding-top: 4px; }
+
+.sr_photo { widtH: 276px; margin-right: 10px; float: left;}
+.sr_photo .photoimg img { max-width: 276px; max-height: 200px; }
+.sr_photo .owner_left {float: left; width: 36px;}
+.sr_photo .owner_left img {width: 32px; height: 32px;}
+.sr_photo .owner_right {float: left; width: 200px; font-size: 11px; }
+
+.sr_photo .photoframe { background-color: #eeeeee; }
+.sr_photo .albumname { color: #666666; padding-top: 8px; font-size: 11px; }
+.sr_photo .caption { color: #666666; padding-top: 3px; font-size: 11px; }
+.sr_photo .photo_footer { padding: 8px; }

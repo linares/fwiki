@@ -1,0 +1,10 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+
+<h1> {{ func|default:"Something went wrong"}} </h1>
+
+
+{% include "controls/querybox.html" %}
+
+{% endblock %}

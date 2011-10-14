@@ -1,0 +1,39 @@
+{% extends "base/base.html" %}
+{% block extra_js %}
+	<script src="{{ STATIC_URL }}js/jquery.cross-slide.min.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block content %}
+
+<div id="node_info"> 
+
+</div>
+
+<div class="inner_container"> 
+	<h1> {{node.name}}</h1>
+
+	<script>
+	var reel_pics = [
+	{% for photo_url in photos %}
+		"{{photo_url.url}}",
+	{% endfor %}
+		];
+	</script>
+	
+	<div id="reel"></div>
+	
+	<ul id="grid">
+		<!-- 
+		 <li><img src="{{ STATIC_URL}}images/test/1deadsea.jpg"/></li>
+		 <li><img src="{{ STATIC_URL}}images/test/2akko.jpg"/></li>
+		 <li><img src="{{ STATIC_URL}}images/test/3jordan.jpg"/></li>
+		
+		 <li><img src="{{ STATIC_URL}}images/test/4petra.jpg"/></li>
+		 <li><img src="{{ STATIC_URL}}images/test/5pyramids.jpg"/></li>
+		 <li><img src="{{ STATIC_URL}}images/test/6deadsea.jpg"/></li> -->
+	</ul>
+	<div class="clearfix"></div>
+</div>
+
+
+{% endblock %}
